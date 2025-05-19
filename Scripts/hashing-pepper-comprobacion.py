@@ -20,7 +20,7 @@ def validate_password(password):
     return "Segura"
 print(validate_password(password))
 
-# Verificacion de la contraseña en diccionario de contras comunes
+# Verificacion de la contraseña en diccionario de contraseñas comunes
 url="https://raw.githubusercontent.com/duyet/bruteforce-database/master/1000000-password-seclists.txt"
 passwordDictionary = pd.read_csv(url, names=['value'])
 
